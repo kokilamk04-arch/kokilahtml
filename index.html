@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kokila M - EEE Student Portfolio</title>
+  <link rel="stylesheet" href="portfolio-style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Kokila M</div>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION WITH CANVAS ANIMATION -->
+  <section id="hero" class="hero-section">
+    <canvas id="scroll-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-name">Kokila M</h1>
+      <h2 class="hero-title">Electrical & Electronics Engineering Student | Renewable Energy | Embedded Systems</h2>
+      <p class="hero-tagline">Passionate about modern electrical systems, renewable energy technologies, and sustainable engineering solutions.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p class="about-text">
+          I am an Electrical and Electronics Engineering student at TPGIT, passionate about learning modern electrical systems, renewable energy technologies, and embedded systems. To apply my knowledge in electrical systems, circuit design, and power electronics to contribute effectively to innovative and sustainable engineering solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title">Skills & Tech Stack</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Engineering Tools</h3>
+          <ul class="skill-list">
+            <li>MATLAB Simulink</li>
+            <li>Circuit Design</li>
+            <li>Power Electronics</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Technical Skills</h3>
+          <ul class="skill-list">
+            <li>Electrical Systems</li>
+            <li>Embedded Systems</li>
+            <li>Renewable Energy Technologies</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Programming</h3>
+          <ul class="skill-list">
+            <li>C Programming</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">👥</div>
+          <h3>Soft Skills</h3>
+          <ul class="skill-list">
+            <li>Communication</li>
+            <li>Time Management</li>
+            <li>Leadership and Initiative</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">One Month</div>
+            <h3>Electrical Vehicle Technology Intern</h3>
+            <h4>Code Technology</h4>
+            <ul class="experience-list">
+              <li>Gained hands-on experience in electric vehicle systems, including powertrain design, battery management, and sustainability assessment</li>
+              <li>Conducted a detailed Life Cycle Analysis (LCA) comparing Electric Vehicles (EVs) and Internal Combustion Engine (ICE) vehicles from 2000 to 2025</li>
+              <li>Evaluated materials, manufacturing, energy consumption, and recycling impact to determine environmental performance</li>
+              <li>Documented and published the project on GitHub to demonstrate analytical findings and technical expertise</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-icon">🔋</div>
+          <h3>Life Cycle Analysis of Electric Vehicle</h3>
+          <p>Comprehensive analysis comparing EVs and ICE vehicles from 2000 to 2025, evaluating environmental impact and sustainability</p>
+          <div class="project-tags">
+            <span class="tag">EV Technology</span>
+            <span class="tag">Sustainability</span>
+            <span class="tag">Research</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">👓</div>
+          <h3>Drowsiness Detection for Vehicle</h3>
+          <p>Smart Glass system with Eye Blink detection to prevent driver drowsiness and enhance road safety</p>
+          <div class="project-tags">
+            <span class="tag">Safety Systems</span>
+            <span class="tag">Embedded</span>
+            <span class="tag">IoT</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">💡</div>
+          <h3>Light Sensor Circuit Using 555 Timer</h3>
+          <p>Designed and implemented an automatic light sensor circuit using the versatile 555 timer IC</p>
+          <div class="project-tags">
+            <span class="tag">Circuit Design</span>
+            <span class="tag">Electronics</span>
+            <span class="tag">Sensors</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS SECTION -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="certifications-grid">
+        
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>Introduction to C Programming</h3>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>ChatGPT for Beginners</h3>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>Electric Vehicle Intern</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-content">
+        
+        <div class="education-card">
+          <h3>BE – Electrical and Electronics Engineering</h3>
+          <h4>Thathai Periyar Government Institute of Technology, Vellore-02</h4>
+          <p class="education-year">2022 – 2026</p>
+        </div>
+
+        <div class="education-card">
+          <h3>Kongu Matric HR Sec School</h3>
+          <p class="education-year">2015 – 2022</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        
+        <div class="contact-info">
+          
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <h3>Phone</h3>
+              <p>+91 8148416414</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:kokilamk04@gmail.com">kokilamk04@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <p>14/140, Koochanoor, Dharmaouri</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with passion for Electrical Engineering and sustainable solutions</p>
+      <p>&copy; 2025 Kokila M. All rights reserved.</p>
+    </div>
+  </footer>
+  <div id="chat-wrapper">
+    <button id="chat-toggle" class="chat-btn">
+        <span class="icon">💬</span>
+    </button>
+
+    <div id="chat-container" class="chat-hidden">
+        <div class="chat-header">
+            <h3>Kokila's Assistant</h3>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div id="chat-messages">
+            <div class="message bot-msg">Hi! I'm Kokila's virtual assistant. Ask me anything about her projects or skills!</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+            <button id="chat-send">Send</button>
+        </div>
+    </div>
+</div>
+  <script src="portfolio-script.js"></script>
+</body>
+</html>
